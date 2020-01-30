@@ -6,7 +6,7 @@
      <div class="row">
        <div class="col-12">
          <?php
-              if (isset($_SESSION['userId'])) {
+              if (isset($_SESSION['idusers'])) {
                 echo ' <p>You are logged in!</p>';
               }
               else{

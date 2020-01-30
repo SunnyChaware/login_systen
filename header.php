@@ -49,8 +49,8 @@ session_start();
 
 
             <?php
-                 if (isset($_SESSION['userId'])) {
-                   echo ' <form class="" action="includes/logout.inc.html" method="post">
+                 if (isset($_SESSION['idusers'])) {
+                   echo ' <form class="" action="includes/logout.inc.php" method="post">
                      <button type="submit" class="btn btn-primary mb-2" name="logout-submit">Logout</button>
                    </form>';
                  }
@@ -64,8 +64,8 @@ session_start();
                        </div>
                        <!-- submit button -->
 
-                       <button type="submit" class="btn btn-primary mb-2" name="login-submit">Submit</button>
-                       <a class="nav-item nav-link" style="color:black" href="sighnup.php">Signup</a>
+                       <button type="submit" class="btn btn-primary mb-2" name="login-submit">Login</button>
+                       <a class="nav-item nav-link btn" style="color:black" href="sighnup.php">Signup</a>
                    </form>';
                  }
              ?>
