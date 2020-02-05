@@ -12,28 +12,15 @@ session_start();
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <style>
+    body{
+      background-image: url(wall.png);
+        }
+    </style>
     <title>Login System</title>
   </head>
 
   <header>
-      <!-- <a href="#">
-        <img src="" alt="logo">
-      </a>
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-        <form class="" action="includes/login.inc.php" method="post">
-          <input type="text/email" name="mailuid" value="" placeholder="UserId/Email">
-          <input type="password" name="password" value="" placeholder="Password">
-          <button type="submit" name="login-submit">Login</button>
-        </form>
-        <a href="signup.php">Signup</a>
-        <form class="" action="includes/logout.inc.html" method="post">
-          <button type="submit" name="logout-submit">Logout</button>
-          </form> -->
 
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

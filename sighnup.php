@@ -6,34 +6,35 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6 col-lg-6">
-              <p class="display-2 text-center" style="padding-top:48%;  padding-right:10%;">
-                Sign-Up
-              </p>
+              <div class="" style="padding-top:55%;  padding-right:10%;">
+                <form action="includes/signup.inc.php" method="POST">
 
+                  <div class="form-group">
+                    <label for="inputEmail4">Email&nbsp;<span style="color:red;">*</span></label>
+                    <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="" required>
+                  </div>
+                <div class="form-group">
+                  <label for="Username/Email">Username/Email&nbsp;<span style="color:red;">*</span></label>
+                  <input type="text" class="form-control" name="name" id="inputAddress" placeholder="" required>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password&nbsp;<span style="color:red;">*</span></label>
+                  <input type="password" class="form-control" name="pwd" id="" placeholder="" required>
+                </div>
+                <div class="form-group">
+                  <label for="Name">Confirm Password&nbsp;<span style="color:red;">*</span></label>
+                  <input type="password" class="form-control" name="cnfpwd" id="" placeholder="" required>
+                </div>
+                <button type="submit" class="btn btn-primary" name="signup-submit">Signup</button>
+            </form>
+          </div>
               </div>
               <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6 col-lg-6">
-                <div class="" style="padding-top:25%;  padding-right:10%;">
-                  <form action="includes/signup.inc.php" method="POST">
 
-                    <div class="form-group">
-                      <label for="inputEmail4">Email&nbsp;<span style="color:red;">*</span></label>
-                      <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="" required>
-                    </div>
-                  <div class="form-group">
-                    <label for="Username/Email">Username/Email&nbsp;<span style="color:red;">*</span></label>
-                    <input type="text" class="form-control" name="name" id="inputAddress" placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="password">Password&nbsp;<span style="color:red;">*</span></label>
-                    <input type="password" class="form-control" name="pwd" id="" placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="Name">Confirm Password&nbsp;<span style="color:red;">*</span></label>
-                    <input type="password" class="form-control" name="cnfpwd" id="" placeholder="" required>
-                  </div>
-                  <button type="submit" class="btn btn-primary" name="signup-submit">Signup</button>
-              </form>
-            </div>
+            <p class="display-2 text-center" style="padding-top:80%;  padding-right:10%;">
+              Sign-Up
+            </p>
+
               </div>
             </div>
           </div>
